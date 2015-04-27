@@ -27,3 +27,5 @@ Going from how things are currently to what is envisaged here would be a big job
 1. merge all git repos in to one, with a top-level directory corresponding to each
 1. re-organise to have things grouped by collection (as prototyped here), and then by technology. This would require scripts to generate geoserver directory hierarchy etc
 1. factor out and simplify common configuration between different technologies
+
+*Note: this example repo is as described in (2) in terms of organisation, but without the scripts and full set of collections.*
