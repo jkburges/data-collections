@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mcp:MD_Metadata xmlns:mcp="http://schemas.aodn.org.au/mcp-2.0" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:geonet="http://www.fao.org/geonetwork" gco:isoType="gmd:MD_Metadata" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd http://schemas.aodn.org.au/mcp-2.0 http://schemas.aodn.org.au/mcp-2.0/schema.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>8cea53a2-68d6-4d94-a3bf-29d76f14d092</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gco:CharacterString>eng</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode">utf8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:parentIdentifier>
+    <gco:CharacterString>a35d02d7-3bd2-40f8-b982-a0e30b64dc40</gco:CharacterString>
+  </gmd:parentIdentifier>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+    <gco:CharacterString>IMOS Dataset level record</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName>
+        <gco:CharacterString>Integrated Marine Observing System (IMOS)</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>eMII Data Officer</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>61 3 6226 7488</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString>61 3 6226 8575</gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>University of Tasmania</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>Private Bag 110</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Hobart</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>Tasmania</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>7001</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>Australia</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>info@emii.org.au</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://imos.org.au/emii.html</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Website of the eMarine Information Infrastructure (eMII)</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:DateTime>2015-04-26T22:30:25</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>Australian Marine Community Profile of ISO 19115:2005/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>2.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:identificationInfo>
+    <mcp:MD_DataIdentification gco:isoType="gmd:MD_DataIdentification">
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>IMOS - AATAMS Facility - Tracking of Short-tailed shearwaters</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>Tracking of short-tailed shearwaters</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:DateTime>2014-01-16T11:00:00</gco:DateTime>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Hindell, Mark</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>Institute for Marine and Antarctic Studies (IMAS), University of Tasmania (UTAS)</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Professor</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>61 3 6226 2645</gco:CharacterString>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Institute for Marine and Antarctic Studies (IMAS)</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Private Bag 129</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Hobart</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Tasmania</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>7001</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Australia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>Mark.Hindell@utas.edu.au</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>http://www.imas.utas.edu.au/people/profiles/current-staff/h/mark-hindell</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:name gco:nilReason="missing">
+                        <gco:CharacterString />
+                      </gmd:name>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>The citation in a list of references is: citation author name/s (year metadata published), metadata title. Citation author organisation/s. File identifier and Data accessed at (add http link).</gco:CharacterString>
+          </gmd:otherCitationDetails>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>AATAMS represents the higher biological monitoring of the marine environment for the IMOS program. Currently AATAMS uses acoustic technology, CTD satellite trackers and bio loggers to monitor coastal and oceanic movements of marine animals from the Australian mainland to the sub-Antarctic islands and as far south as the Antarctic continent. CTD satellite trackers and bio loggers currently deployed on a large range of animals are collecting a wide range of data. This includes behavioural and physical data such as the depth, temperature, salinity and movement effort of individual marine animals. This record presents data collected from 21 tagged and recaptured Short-tailed shearwaters (Puffinus tenuirostris), with data presented throughout the Southern Ocean. The study was conducted on Wedge Island (43 km2), southern Tasmania (43o 07' S, 147o 40' E). Fifty geolocation archival (GLS) tag deployments were made on 34 adult birds in the pre-laying exodus (n = 18), incubation (n = 12) and early chick-rearing (ECR) phases (n = 20).</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>Integrated Marine Observing System (IMOS), University of Tasmania (UTAS)</gco:CharacterString>
+      </gmd:credit>
+      <gmd:credit>
+        <gco:CharacterString>Rob Harcourt</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
+      </gmd:status>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>McMahon, Clive</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Institute for Marine and Antarctic Studies (IMAS), University of Tasmania (UTAS)</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>Honorary Associate</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Institute for Marine and Antarctic Studies (IMAS)</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Private Bag 129</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Hobart</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>Tasmania</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>7001</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>Australia</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>Clive.McMahon@utas.edu.au</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Hindell, Mark</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Institute for Marine and Antarctic Studies (IMAS), University of Tasmania (UTAS)</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>Professor</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>61 3 6226 2645</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Institute for Marine and Antarctic Studies (IMAS)</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Private Bag 129</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Hobart</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>Tasmania</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>7001</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>Australia</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>Mark.Hindell@utas.edu.au</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:onlineResource>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://www.imas.utas.edu.au/people/profiles/current-staff/h/mark-hindell</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:name gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:name>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>AATAMS_s.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>thumbnail</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>AATAMS.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>large_thumbnail</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Biosphere | Ecological Dynamics | Migratory Rates/routes</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Oceans | Marine Biology | Marine Birds</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NASA/Global Change Master Directory Earth Science Keywords Version 5.3.8</gco:CharacterString>
+              </gmd:title>
+              <gmd:alternateTitle>
+                <gco:CharacterString>GCMD</gco:CharacterString>
+              </gmd:alternateTitle>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2006-01-01</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>National Aeronautics and Space Administration (NASA)</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Tags and Tracking Devices</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Marine Community Profile of ISO19115 v1.4 Collection Methods Vocabulary (Annex C.1.3)</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2008-10-30</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Australian Ocean Data Centre Joint Facility (AODCJF)</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>IMOS Facility | AATAMS | Australian Animal Tagging and Monitoring System</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>IMOS Keywords Thesaurus</gco:CharacterString>
+              </gmd:title>
+              <gmd:alternateTitle>
+                <gco:CharacterString>IMOS</gco:CharacterString>
+              </gmd:alternateTitle>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2008-10-30</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Integrated Marine Observing System (IMOS)</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords xmlns:srv="http://www.isotc211.org/2005/srv">
+          <gmd:keyword>
+            <gco:CharacterString>Global / Oceans | Indian Ocean</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Global / Oceans | Southern Ocean</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Global / Oceans | Pacific Ocean</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Marine Features (Australia) | Great Australian Bight, SA/WA</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Marine Features (Australia) | Bass Strait, TAS/VIC</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Regional Seas | Tasman Sea</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>water-bodies (internal use)</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:DateTime>2014-12-01T15:19:00</gco:DateTime>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="https://catalogue-123.aodn.org.au/geonetwork/srv/en/thesaurus.download?ref=local.theme.water-bodies">geonetwork.thesaurus.local.theme.water-bodies</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords xmlns:srv="http://www.isotc211.org/2005/srv">
+          <gmd:keyword>
+            <gco:CharacterString>Countries | Australia</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>States, Territories (Australia) | Western Australia</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>States, Territories (Australia) | Victoria</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>States, Territories (Australia) | Tasmania</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>States, Territories (Australia) | New South Wales</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Offshore Islands (Australia) | Macquarie Island</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Continents | Antarctica</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>land-masses (internal use)</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:DateTime>2014-12-01T15:19:00</gco:DateTime>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="https://catalogue-123.aodn.org.au/geonetwork/srv/en/thesaurus.download?ref=local.theme.land-masses">geonetwork.thesaurus.local.theme.land-masses</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <mcp:MD_Commons xmlns:mcp_1="http://bluenet3.antcrc.utas.edu.au/mcp" mcp_1:commonsType="Creative Commons" gco:isoType="gmd:MD_Constraints">
+          <mcp:jurisdictionLink>
+            <gmd:URL>http://creativecommons.org/international/au/</gmd:URL>
+          </mcp:jurisdictionLink>
+          <mcp:licenseLink>
+            <gmd:URL>http://creativecommons.org/licenses/by/2.5/au/</gmd:URL>
+          </mcp:licenseLink>
+          <mcp:imageLink>
+            <gmd:URL>http://i.creativecommons.org/l/by/2.5/au/88x31.png</gmd:URL>
+          </mcp:imageLink>
+          <mcp:licenseName>
+            <gco:CharacterString>Attribution 2.5 Australia</gco:CharacterString>
+          </mcp:licenseName>
+          <mcp:attributionConstraints>
+            <gco:CharacterString>The citation in a list of references is: citation author name/s (year metadata published), metadata title. Citation author organisation/s. File identifier and Data accessed at (add http link).</gco:CharacterString>
+          </mcp:attributionConstraints>
+        </mcp:MD_Commons>
+      </gmd:resourceConstraints>
+      <gmd:language>
+        <gco:CharacterString>eng</gco:CharacterString>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_BoundingPolygon>
+              <gmd:polygon>
+                <gml:Polygon srsName="CRS:84">
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">162 -56 164 -56 164 -58 160 -58 160 -60 162 -60 162 -62 164 -62 164 -64 162 -64 162 -66 140 -66 140 -64 94 -64 94 -62 86 -62 86 -60 80 -60 80 -58 76 -58 76 -56 80 -56 80 -54 90 -54 90 -52 98 -52 98 -50 102 -50 102 -48 104 -48 104 -44 110 -44 110 -40 116 -40 116 -34 114 -34 114 -30 112 -30 112 -28 108 -28 108 -26 100 -26 100 -24 98 -24 98 -22 100 -22 100 -20 104 -20 104 -22 112 -22 112 -26 114 -26 114 -28 116 -28 116 -30 118 -30 118 -32 120 -32 120 -34 126 -34 126 -36 130 -36 130 -38 136 -38 136 -40 142 -40 142 -38 148 -38 148 -34 150 -34 150 -32 152 -32 152 -30 154 -30 154 -34 156 -34 156 -36 152 -36 152 -40 150 -40 150 -44 152 -44 152 -48 154 -48 154 -50 156 -50 156 -52 158 -52 158 -54 160 -54 160 -56 162 -56</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">100 -52 100 -54 102 -54 102 -52 100 -52</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">100 -54 92 -54 92 -56 82 -56 82 -58 88 -58 88 -60 96 -60 96 -62 108 -62 108 -60 106 -60 106 -56 102 -56 102 -58 98 -58 98 -56 100 -56 100 -54</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">118 -46 120 -46 120 -44 118 -44 118 -46</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">118 -44 118 -42 116 -42 116 -44 118 -44</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">118 -38 120 -38 120 -36 118 -36 118 -38</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">120 -38 120 -42 124 -42 124 -40 126 -40 126 -38 120 -38</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">126 -40 126 -42 132 -42 132 -40 126 -40</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">110 -56 110 -58 112 -58 112 -56 110 -56</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">118 -58 116 -58 116 -60 118 -60 118 -58</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">126 -46 130 -46 130 -44 124 -44 124 -46 126 -46</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                </gml:Polygon>
+              </gmd:polygon>
+            </gmd:EX_BoundingPolygon>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <mcp:EX_TemporalExtent gco:isoType="gmd:EX_TemporalExtent">
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d782536e534a1051934">
+                  <gml:begin>
+                    <gml:TimeInstant gml:id="d782536e536a1051934">
+                      <gml:timePosition>2010-10-23</gml:timePosition>
+                    </gml:TimeInstant>
+                  </gml:begin>
+                  <gml:end>
+                    <gml:TimeInstant gml:id="d782536e540a1051934">
+                      <gml:timePosition>2011-02-27</gml:timePosition>
+                    </gml:TimeInstant>
+                  </gml:end>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </mcp:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:supplementalInformation>
+        <gco:CharacterString>Cleeland, J.B., Lea, M.-A., &amp; Hindell, M.A. (2014). Use of the Southern Ocean by breeding Short-tailed shearwaters (Puffinus tenuirostris). Journal of Experimental Marine Biology and Ecology. 450: 109-117.</gco:CharacterString>
+      </gmd:supplementalInformation>
+      <mcp:samplingFrequency>
+        <gmd:MD_MaintenanceFrequencyCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="continual">continual</gmd:MD_MaintenanceFrequencyCode>
+      </mcp:samplingFrequency>
+      <mcp:dataParameters>
+        <mcp:DP_DataParameters>
+          <mcp:dataParameter>
+            <mcp:DP_DataParameter>
+              <mcp:parameterName>
+                <mcp:DP_Term>
+                  <mcp:term>
+                    <gco:CharacterString>Temperature of the water body</gco:CharacterString>
+                  </mcp:term>
+                  <mcp:type>
+                    <mcp:DP_TypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_TypeCode" codeListValue="longName">longName</mcp:DP_TypeCode>
+                  </mcp:type>
+                  <mcp:vocabularyRelationship>
+                    <mcp:DP_VocabularyRelationship>
+                      <mcp:relationshipType>
+                        <mcp:DP_RelationshipTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_RelationshipTypeCode" codeListValue="skos:exactMatch">skos:exactMatch</mcp:DP_RelationshipTypeCode>
+                      </mcp:relationshipType>
+                      <mcp:vocabularyTermURL>
+                        <gmd:URL>http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01</gmd:URL>
+                      </mcp:vocabularyTermURL>
+                    </mcp:DP_VocabularyRelationship>
+                  </mcp:vocabularyRelationship>
+                </mcp:DP_Term>
+              </mcp:parameterName>
+              <mcp:parameterUnits>
+                <mcp:DP_Term>
+                  <mcp:term>
+                    <gco:CharacterString>Degrees Celsius</gco:CharacterString>
+                  </mcp:term>
+                  <mcp:type>
+                    <mcp:DP_TypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_TypeCode" codeListValue="longName">longName</mcp:DP_TypeCode>
+                  </mcp:type>
+                  <mcp:vocabularyRelationship>
+                    <mcp:DP_VocabularyRelationship>
+                      <mcp:relationshipType>
+                        <mcp:DP_RelationshipTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_RelationshipTypeCode" codeListValue="skos:exactMatch">skos:exactMatch</mcp:DP_RelationshipTypeCode>
+                      </mcp:relationshipType>
+                      <mcp:vocabularyTermURL>
+                        <gmd:URL>73a13885-a35b-488a-b11a-0ca45e66592f:concept:429</gmd:URL>
+                      </mcp:vocabularyTermURL>
+                    </mcp:DP_VocabularyRelationship>
+                  </mcp:vocabularyRelationship>
+                </mcp:DP_Term>
+              </mcp:parameterUnits>
+              <mcp:parameterMinimumValue>
+                <gco:CharacterString>-2</gco:CharacterString>
+              </mcp:parameterMinimumValue>
+              <mcp:parameterMaximumValue>
+                <gco:CharacterString>42</gco:CharacterString>
+              </mcp:parameterMaximumValue>
+              <mcp:parameterDeterminationInstrument>
+                <mcp:DP_Term>
+                  <mcp:term>
+                    <gco:CharacterString>water temperature sensor</gco:CharacterString>
+                  </mcp:term>
+                  <mcp:type>
+                    <mcp:DP_TypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_TypeCode" codeListValue="longName">longName</mcp:DP_TypeCode>
+                  </mcp:type>
+                  <mcp:vocabularyRelationship>
+                    <mcp:DP_VocabularyRelationship>
+                      <mcp:relationshipType>
+                        <mcp:DP_RelationshipTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_RelationshipTypeCode" codeListValue="skos:exactMatch">skos:exactMatch</mcp:DP_RelationshipTypeCode>
+                      </mcp:relationshipType>
+                      <mcp:vocabularyTermURL>
+                        <gmd:URL>9aed836d-8ca9-46d6-a0b9-b93630cab805:concept:10</gmd:URL>
+                      </mcp:vocabularyTermURL>
+                    </mcp:DP_VocabularyRelationship>
+                  </mcp:vocabularyRelationship>
+                </mcp:DP_Term>
+              </mcp:parameterDeterminationInstrument>
+              <mcp:platform>
+                <mcp:DP_Term>
+                  <mcp:term>
+                    <gco:CharacterString>seabird and duck</gco:CharacterString>
+                  </mcp:term>
+                  <mcp:type>
+                    <mcp:DP_TypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_TypeCode" codeListValue="longName">longName</mcp:DP_TypeCode>
+                  </mcp:type>
+                  <mcp:vocabularyRelationship>
+                    <mcp:DP_VocabularyRelationship>
+                      <mcp:relationshipType>
+                        <mcp:DP_RelationshipTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_RelationshipTypeCode" codeListValue="skos:exactMatch">skos:exactMatch</mcp:DP_RelationshipTypeCode>
+                      </mcp:relationshipType>
+                      <mcp:vocabularyTermURL>
+                        <gmd:URL>http://vocab.nerc.ac.uk/collection/L06/current/74</gmd:URL>
+                      </mcp:vocabularyTermURL>
+                    </mcp:DP_VocabularyRelationship>
+                  </mcp:vocabularyRelationship>
+                </mcp:DP_Term>
+              </mcp:platform>
+            </mcp:DP_DataParameter>
+          </mcp:dataParameter>
+          <mcp:dataParameter>
+            <mcp:DP_DataParameter>
+              <mcp:parameterName>
+                <mcp:DP_Term>
+                  <mcp:term>
+                    <gco:CharacterString>Latitude north</gco:CharacterString>
+                  </mcp:term>
+                  <mcp:type>
+                    <mcp:DP_TypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_TypeCode" codeListValue="longName">longName</mcp:DP_TypeCode>
+                  </mcp:type>
+                  <mcp:vocabularyRelationship>
+                    <mcp:DP_VocabularyRelationship>
+                      <mcp:relationshipType>
+                        <mcp:DP_RelationshipTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_RelationshipTypeCode" codeListValue="skos:exactMatch">skos:exactMatch</mcp:DP_RelationshipTypeCode>
+                      </mcp:relationshipType>
+                      <mcp:vocabularyTermURL>
+                        <gmd:URL>http://vocab.nerc.ac.uk/collection/P01/current/ALATZZ01</gmd:URL>
+                      </mcp:vocabularyTermURL>
+                    </mcp:DP_VocabularyRelationship>
+                  </mcp:vocabularyRelationship>
+                </mcp:DP_Term>
+              </mcp:parameterName>
+              <mcp:parameterUnits>
+                <mcp:DP_Term>
+                  <mcp:term>
+                    <gco:CharacterString>Degrees</gco:CharacterString>
+                  </mcp:term>
+                  <mcp:type>
+                    <mcp:DP_TypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_TypeCode" codeListValue="longName">longName</mcp:DP_TypeCode>
+                  </mcp:type>
+                  <mcp:vocabularyRelationship>
+                    <mcp:DP_VocabularyRelationship>
+                      <mcp:relationshipType>
+                        <mcp:DP_RelationshipTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_RelationshipTypeCode" codeListValue="skos:exactMatch">skos:exactMatch</mcp:DP_RelationshipTypeCode>
+                      </mcp:relationshipType>
+                      <mcp:vocabularyTermURL>
+                        <gmd:URL>73a13885-a35b-488a-b11a-0ca45e66592f:concept:440</gmd:URL>
+                      </mcp:vocabularyTermURL>
+                    </mcp:DP_VocabularyRelationship>
+                  </mcp:vocabularyRelationship>
+                </mcp:DP_Term>
+              </mcp:parameterUnits>
+              <mcp:platform>
+                <mcp:DP_Term>
+                  <mcp:term>
+                    <gco:CharacterString>seabird and duck</gco:CharacterString>
+                  </mcp:term>
+                  <mcp:type>
+                    <mcp:DP_TypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_TypeCode" codeListValue="longName">longName</mcp:DP_TypeCode>
+                  </mcp:type>
+                  <mcp:vocabularyRelationship>
+                    <mcp:DP_VocabularyRelationship>
+                      <mcp:relationshipType>
+                        <mcp:DP_RelationshipTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_RelationshipTypeCode" codeListValue="skos:exactMatch">skos:exactMatch</mcp:DP_RelationshipTypeCode>
+                      </mcp:relationshipType>
+                      <mcp:vocabularyTermURL>
+                        <gmd:URL>http://vocab.nerc.ac.uk/collection/L06/current/74</gmd:URL>
+                      </mcp:vocabularyTermURL>
+                    </mcp:DP_VocabularyRelationship>
+                  </mcp:vocabularyRelationship>
+                </mcp:DP_Term>
+              </mcp:platform>
+            </mcp:DP_DataParameter>
+          </mcp:dataParameter>
+          <mcp:dataParameter>
+            <mcp:DP_DataParameter>
+              <mcp:parameterName>
+                <mcp:DP_Term>
+                  <mcp:term>
+                    <gco:CharacterString>Longitude east</gco:CharacterString>
+                  </mcp:term>
+                  <mcp:type>
+                    <mcp:DP_TypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_TypeCode" codeListValue="longName">longName</mcp:DP_TypeCode>
+                  </mcp:type>
+                  <mcp:vocabularyRelationship>
+                    <mcp:DP_VocabularyRelationship>
+                      <mcp:relationshipType>
+                        <mcp:DP_RelationshipTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_RelationshipTypeCode" codeListValue="skos:exactMatch">skos:exactMatch</mcp:DP_RelationshipTypeCode>
+                      </mcp:relationshipType>
+                      <mcp:vocabularyTermURL>
+                        <gmd:URL>http://vocab.nerc.ac.uk/collection/P01/current/ALONZZ01</gmd:URL>
+                      </mcp:vocabularyTermURL>
+                    </mcp:DP_VocabularyRelationship>
+                  </mcp:vocabularyRelationship>
+                </mcp:DP_Term>
+              </mcp:parameterName>
+              <mcp:parameterUnits>
+                <mcp:DP_Term>
+                  <mcp:term>
+                    <gco:CharacterString>Degrees</gco:CharacterString>
+                  </mcp:term>
+                  <mcp:type>
+                    <mcp:DP_TypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_TypeCode" codeListValue="longName">longName</mcp:DP_TypeCode>
+                  </mcp:type>
+                  <mcp:vocabularyRelationship>
+                    <mcp:DP_VocabularyRelationship>
+                      <mcp:relationshipType>
+                        <mcp:DP_RelationshipTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_RelationshipTypeCode" codeListValue="skos:exactMatch">skos:exactMatch</mcp:DP_RelationshipTypeCode>
+                      </mcp:relationshipType>
+                      <mcp:vocabularyTermURL>
+                        <gmd:URL>73a13885-a35b-488a-b11a-0ca45e66592f:concept:440</gmd:URL>
+                      </mcp:vocabularyTermURL>
+                    </mcp:DP_VocabularyRelationship>
+                  </mcp:vocabularyRelationship>
+                </mcp:DP_Term>
+              </mcp:parameterUnits>
+              <mcp:platform>
+                <mcp:DP_Term>
+                  <mcp:term>
+                    <gco:CharacterString>seabird and duck</gco:CharacterString>
+                  </mcp:term>
+                  <mcp:type>
+                    <mcp:DP_TypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_TypeCode" codeListValue="longName">longName</mcp:DP_TypeCode>
+                  </mcp:type>
+                  <mcp:vocabularyRelationship>
+                    <mcp:DP_VocabularyRelationship>
+                      <mcp:relationshipType>
+                        <mcp:DP_RelationshipTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_RelationshipTypeCode" codeListValue="skos:exactMatch">skos:exactMatch</mcp:DP_RelationshipTypeCode>
+                      </mcp:relationshipType>
+                      <mcp:vocabularyTermURL>
+                        <gmd:URL>http://vocab.nerc.ac.uk/collection/L06/current/74</gmd:URL>
+                      </mcp:vocabularyTermURL>
+                    </mcp:DP_VocabularyRelationship>
+                  </mcp:vocabularyRelationship>
+                </mcp:DP_Term>
+              </mcp:platform>
+            </mcp:DP_DataParameter>
+          </mcp:dataParameter>
+        </mcp:DP_DataParameters>
+      </mcp:dataParameters>
+    </mcp:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:name>
+          <gmd:version gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://catalogue-123.aodn.org.au:443/geonetwork/srv/en/metadata.show?uuid=8cea53a2-68d6-4d94-a3bf-29d76f14d092</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--metadata-URL</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:description>
+                <gco:CharacterString>Point of truth URL of this metadata record</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://imos.org.au/aatams.html</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>AATAMS page on IMOS website</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://geoserver-123.aodn.org.au/geoserver/wms</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>imos:aatams_biologging_shearwater_map</gco:CharacterString>
+              </gmd:name>
+              <gmd:description gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://geoserver-123.aodn.org.au/geoserver/ows</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.0.0-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>aatams_biologging_shearwater_data</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>This OGC WFS service returns filtered geographic information. The returned data is available in multiple formats including CSV.</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://help.aodn.org.au/help/?q=node/53</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>OGC WFS help documentation</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>MK-19 GLS tags (Biotrack Ltd., Wareham, UK) are well suited for tracking small Procellariiform seabirds due to their miniature size (16×14×6mm, 2.5g) and inexpensive cost. Prior to the pre-laying exodus a threshold weight of 540gwas used when choosing individuals for tag deployment, to ensure that no birds in poor condition were included in the sample. Due to an improvement in post-migration body condition following the pre-laying exodus the minimum weight for tag deployment was increased to greater than 580 g. BiotrackMK-19 GLS tags sample light level every minute and record the maximum light measurement in every five minute period, which is the primary data for estimating initial location. They also sample the time when an activity (wet or dry) state change occurs, with water temperature recorded after twenty minutes in the wet phase, which acted as auxiliary environmental data for estimating initial location. Prior to deployment, GLS temperature sensors were calibrated, in a water bath at 2 °C increments between 0 °C to 24 °C and then at 28 °C, to cover the SST range of the expected foraging area. Individual tags were placed in an open space for three days at the deployment location to produce a sequence of light recordings at a known location from which solar elevation estimates could be calculated. After retrieval, the raw archived tag data was downloaded, and adjustments for internal clock drift were made.</gco:CharacterString>
+          </gmd:statement>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <mcp:revisionDate>
+    <gco:DateTime>2015-04-26T22:30:25</gco:DateTime>
+  </mcp:revisionDate>
+</mcp:MD_Metadata>
+
